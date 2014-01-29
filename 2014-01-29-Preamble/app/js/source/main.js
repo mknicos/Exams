@@ -9,7 +9,7 @@
   }
 
   
-
+  var timer;
   var counter = 0;
   var globalArray = [];
 
@@ -22,7 +22,7 @@
     globalArray = _.shuffle(globalArray);
 
 //loop needs to start here
-    setInterval(loopStart, 1000);
+    timer = setInterval(loopStart, 1000);
   }
   
   function loopStart(){
@@ -36,6 +36,10 @@
       runIfOdd(word);
     }
     counter++;
+
+    if(globalArray.length < 1){
+      clearInterval(timer);
+    }
   }
 
   function selectRandomWord(array){
