@@ -1,0 +1,54 @@
+body {
+  background-color: #b0c4de;
+}
+#inputText {
+  border: 1px solid black;
+  height: 80px;
+  width: 500px;
+}
+#spacer {
+  height: 50px;
+}
+#odd,
+#even {
+  border: 1px solid black;
+  margin: 20px;
+  width: 300px;
+  padding: 5px;
+}
+#even div {
+  margin: 15px;
+}
+#odd div {
+  margin: 15px;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.evenWord {
+  border: 0px;
+  background-color: lightblue;
+  margin: 5px;
+  padding: 5px;
+}
+.evenNum {
+  border: 0px;
+  background-color: lightsalmon;
+  margin: 5px;
+  padding: 5px;
+}
+.oddWord {
+  border: 0px;
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 5px;
+}
+.oddNum {
+  border: 0px;
+  background-color: lightgreen;
+  margin: 5px;
+  padding: 5px;
+}
