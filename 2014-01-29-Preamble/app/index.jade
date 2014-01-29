@@ -4,7 +4,7 @@ html(class='no-js', lang='en')
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Foundation 5
+    title Preamble Mix Up
     link(rel='stylesheet', href='/css/normalize.css')
     link(rel='stylesheet', href='/css/foundation.css')
     link(rel='stylesheet', href='/css/app.css')
@@ -12,7 +12,27 @@ html(class='no-js', lang='en')
   body
     .row
       .small-12.columns
-        h1 Foundation 5 Template
+        h1 Preamble Mix Up
+    .row
+      .small-12.columns
+        #spacer
+    .row
+      .small-8.columns
+        textarea#inputText(type='text', placeholder='Insert Text Here')
+      .small-3.columns
+        button#start Start
+      .small-1.columns
+    .row
+      .small-12.columns
+        #spacer
+    .row
+      .small-6.columns
+        #even
+          h2 Even
+      .small-6.columns
+        #odd
+          h2 Odd
+
 
     script(src='/js/vendor/jquery.js')
     script(src='/js/vendor/foundation.js')
